@@ -1,4 +1,6 @@
 import time
+import os
+
 
 x = 20
 while x > 0:
@@ -6,3 +8,5 @@ while x > 0:
     x -= 1
     time.sleep(1)
 print("#"*10000)
+time.sleep(1)
+os.system("sudo shutdown -h now")
